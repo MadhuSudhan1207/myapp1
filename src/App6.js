@@ -256,7 +256,7 @@ export default function App6() {
               <div key={index}>
                 {value.name}-{value.age} -{" "}
                 <button onClick={() => deleteStudent(value.name)}>Delete</button>
-                <button onClick={() => editStudent(value)}>Edit</button>
+                {/* <button onClick={() => editStudent(value)}>Edit</button> */}
               </div>
             ))}
         </div>
