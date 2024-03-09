@@ -4,7 +4,7 @@ import Header from './Header';
 function App() {
   return (
   <div className='App'>
-      <Header />
+      <Header /> 
       <hr></hr><br></br><br></br>
      <div className='container'>
       <div className='box1'><h2>Box1</h2></div>
