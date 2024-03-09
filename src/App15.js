@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 export default function App15() {
   return (
     <div>
+        
       <Router>
         <Link to="/">Feeds</Link> | <Link to="/post">Post</Link>
         <Routes>
