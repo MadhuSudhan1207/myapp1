@@ -1,11 +1,7 @@
 import React from 'react'
 
-
-
-export default function Fail(props) {
+export default function Fail() {
   return (
-  <div>Hello {props.name}. are you {props.age}?</div>
-  );
+    <div>Fail</div>
+  )
 }
-
-/* export default App1; */

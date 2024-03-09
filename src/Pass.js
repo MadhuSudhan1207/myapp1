@@ -1,11 +1,7 @@
 import React from 'react'
-import Pass from './Pass';
 
-
-export default function App(props) {
+export default function Pass() {
   return (
-  <div>Hello {props.name}. are you {props.age}?</div>
-  );
+    <div>Pass</div>
+  )
 }
-
-/* export default App1; */
